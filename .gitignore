@@ -1,73 +1,42 @@
-# IntelliJ IDEA-specific files
-.idea/
-*.iml
-*.iws
-out/
-.idea_modules/
-
-# Byte-compiled Python files
-__pycache__/
-*.py[cod]
-*$py.class
-
-# Virtual environment
-venv/
-env/
-
-# Jupyter Notebook checkpoints
-.ipynb_checkpoints/
+# Compiled class files
+*.class
 
 # Log files
 *.log
-*.out
-*.err
 
-# Cache files
-*.cache
-*.pickle
-*.pkl
-*.h5
-*.hdf5
+# BlueJ files
+*.ctxt
 
-# TensorFlow checkpoints
-checkpoint
-*.ckpt
-*.ckpt.*
+# Mobile Tools for Java (J2ME)
+.mtj.tmp/
 
-# Environment variables
-.env
-.env.*
+# Package Files #
+*.jar
+*.war
+*.ear
 
-# Build and distribution files
-build/
-dist/
-*.egg-info/
-.eggs/
-*.manifest
-*.spec
+# IntelliJ IDEA
+.idea/
+*.iws
+*.iml
+*.ipr
+out/
 
-# Test and coverage reports
-.tox/
-.nox/
-.pytest_cache/
-.coverage
-.coverage.*
-.cache/
+# Eclipse
+.project
+.classpath
+.c9/
+*.launch
+.settings/
+bin/
+tmp/
 
-# Operating system files
+# VS Code
+.vscode/
+
+# macOS
 .DS_Store
+
+# Windows
 Thumbs.db
-
-# Temporary or backup files
-*.bak
-*.swp
-*.tmp
-*~
-
-# Profiler and debugging
-*.prof
-*.lprof
-*.trace
-
-# IntelliJ run/debug configurations
-*.run.xml
+ehthumbs.db
